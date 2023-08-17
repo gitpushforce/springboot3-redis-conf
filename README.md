@@ -29,11 +29,11 @@ docker-compose up --build -d
 3) Access to **http://localhost:8080/abc**
 
 ## What does this API do?
-##### CASE 1:
+### CASE 1:
 If there is no value set in "val" key; it will be set.
 The returned value will be the value set to redis (not retrieved from redis)
 
-##### CASE 2:
+### CASE 2:
 If there is a value set in "val" key; nothing will be set to "val"
 The returned value will be the retrieved value from redis.
 
